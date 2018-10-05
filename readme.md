@@ -26,13 +26,23 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
+
 ## Интернет-магазин изделий ручной работы
 
 ## Используемые технологии
- - PHP
- - MySQL
+ - PHP 7.2
+ - MySQL 5.7
  - Laravel
  - JavaScript
  
- ## Инструкции по 
+ ## Инструкции по установке
+ - cd domains
+ - git clone .... .git
+ - cd laravel
+ - composer self-update
+ - composer install
+ - создать .env из example.env 
+ - запустить сайт
+ 
+ # Авторы
  
