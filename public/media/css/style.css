@@ -1,0 +1,41 @@
+.header {
+height:200px;
+background: #604250;
+}
+body {
+	background: #604250;
+	margin:0;
+	padding:0;
+}
+#logo{
+	float:left;
+	margin:spx;
+}
+.logotext{
+	float:right;
+	margin:20px;
+}
+.topmenu{
+	display:flex;
+	midth:100%;
+	margin: 0 auto;
+	font-size: 14 px;
+}
+.topmenu a{
+	flex:1;
+	background:#231E38;
+	color:white;
+	font-size: 14 px;
+	text-decoration:none;
+	text-align:center;
+	padding:5px;
+	border-left:1px solid #fff;
+}
+.topmenu a:hover{
+	background:white;
+	color:black;
+}
+
+	
+	{#cards .last{display:block!important}}@media (max-width:767.98px)
+    {#cards .card{max-width:350px;display:table;margin-left:auto;margin-right:auto; background: #604250;}}@media (max-width:767.98px)
