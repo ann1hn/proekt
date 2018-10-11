@@ -16,6 +16,7 @@
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
 
     <link href="{{asset('media/css/style.css')}}" rel="stylesheet" />
+	
 </head>
 <body id="app-layout">
     <nav class="navbar navbar-default navbar-static-top">
