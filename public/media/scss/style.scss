@@ -30,7 +30,7 @@
 body {
     font-family: $font-poppins;
     font-size: 14px;
-    background-color: #f6bd60;
+    background-color: $white-color;
     margin-top: 85px;
     @media #{$breakpoint-xs} {
         margin-top: 80px;
