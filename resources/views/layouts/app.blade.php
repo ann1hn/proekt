@@ -22,7 +22,7 @@
 
     <!-- Core Style CSS -->
 	<link href="{{asset('media/scss/style.scss')}}" rel="stylesheet" />
-	<link href="{{asset('media/css/classy-nav.min.css')}}" rel="stylesheet" />
+	<link href="{{asset('media/css/style.css')}}" rel="stylesheet" />
     
 	<link href="{{asset('media/css/core-style.css')}}" rel="stylesheet" />
 	
