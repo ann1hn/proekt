@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+	<meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
 
     <!-- Fonts 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
@@ -21,7 +21,7 @@
 	<link href="{{asset('media/img/core-img/favicon.ico')}}" rel="icon" />
 
     <!-- Core Style CSS -->
-    <link href="{{asset('media/css/style.css')}}" rel="stylesheet" />
+    <link href="{{asset('media/scss/style.scss')}}" rel="stylesheet" />
 	<link href="{{asset('media/css/core-style.css')}}" rel="stylesheet" />
 	
 </head>
@@ -32,7 +32,7 @@
             <!-- Classy Menu -->
             <nav class="classy-navbar" id="essenceNav">
                 <!-- Logo -->
-                <a class="nav-brand" href="index.html"><img src="{{asset('media/img/core-img/logo.png')}}" alt=""></a>
+                <a class="nav-brand" href="{{asset('resourses/views/layouts/app.blade.php')}}"><img src="{{asset('media/img/logo.png')}}" alt=""></a>
                 <!-- Navbar Toggler -->
                 <div class="classy-navbar-toggler">
                     <span class="navbarToggler"><span></span><span></span><span></span></span>
@@ -73,7 +73,7 @@
                                         <li><a href="shop.html">Trench</a></li>
                                     </ul>
                                     <div class="single-mega cn-col-4">
-                                        <img src="img/bg-img/bg-6.jpg" alt="">
+                                        <img src="{{asset('media/img/bg-img/bg-6.jpg')}}" alt="">
                                     </div>
                                 </div>
                             </li>
@@ -157,7 +157,7 @@
                 <!-- Single Cart Item -->
                 <div class="single-cart-item">
                     <a href="#" class="product-image">
-                        <img src="img/product-img/product-2.jpg" class="cart-thumb" alt="">
+                        <img src="{{asset('media/img/product-img/product-2.jpg')}}" class="cart-thumb" alt="">
                         <!-- Cart Item Desc -->
                         <div class="cart-item-desc">
                           <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
@@ -173,7 +173,7 @@
                 <!-- Single Cart Item -->
                 <div class="single-cart-item">
                     <a href="#" class="product-image">
-                        <img src="img/product-img/product-3.jpg" class="cart-thumb" alt="">
+                        <img src="{{asset('media/img/product-img/product-3.jpg')}}" class="cart-thumb" alt="">
                         <!-- Cart Item Desc -->
                         <div class="cart-item-desc">
                           <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
@@ -206,7 +206,7 @@
     <!-- ##### Right Side Cart End ##### -->
 
     <!-- ##### Welcome Area Start ##### -->
-    <section class="welcome_area bg-img background-overlay" style="background-image: url(img/bg-img/bg-1.jpg);">
+    <section class="welcome_area bg-img background-overlay" style="background-image: url(media/img/bg-img/bg-1.jpg);">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
@@ -227,7 +227,7 @@
             <div class="row justify-content-center">
                 <!-- Single Catagory -->
                 <div class="col-12 col-sm-6 col-md-4">
-                    <div class="single_catagory_area d-flex align-items-center justify-content-center bg-img" style="background-image: url(img/bg-img/bg-2.jpg);">
+                    <div class="single_catagory_area d-flex align-items-center justify-content-center bg-img" style="background-image: url(media/img/bg-img/bg-2.jpg);">
                         <div class="catagory-content">
                             <a href="#">Clothing</a>
                         </div>
@@ -235,7 +235,7 @@
                 </div>
                 <!-- Single Catagory -->
                 <div class="col-12 col-sm-6 col-md-4">
-                    <div class="single_catagory_area d-flex align-items-center justify-content-center bg-img" style="background-image: url(img/bg-img/bg-3.jpg);">
+                    <div class="single_catagory_area d-flex align-items-center justify-content-center bg-img" style="background-image: url(media/img/bg-img/bg-3.jpg);">
                         <div class="catagory-content">
                             <a href="#">Shoes</a>
                         </div>
@@ -243,7 +243,7 @@
                 </div>
                 <!-- Single Catagory -->
                 <div class="col-12 col-sm-6 col-md-4">
-                    <div class="single_catagory_area d-flex align-items-center justify-content-center bg-img" style="background-image: url(img/bg-img/bg-4.jpg);">
+                    <div class="single_catagory_area d-flex align-items-center justify-content-center bg-img" style="background-image: url(media/img/bg-img/bg-4.jpg);">
                         <div class="catagory-content">
                             <a href="#">Accessories</a>
                         </div>
@@ -259,7 +259,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="cta-content bg-img background-overlay" style="background-image: url(img/bg-img/bg-5.jpg);">
+                    <div class="cta-content bg-img background-overlay" style="background-image: url(media/img/bg-img/bg-5.jpg);">
                         <div class="h-100 d-flex align-items-center justify-content-end">
                             <div class="cta--text">
                                 <h6>-60%</h6>
@@ -295,9 +295,9 @@
                         <div class="single-product-wrapper">
                             <!-- Product Image -->
                             <div class="product-img">
-                                <img src="img/product-img/product-1.jpg" alt="">
+                                <img src="{{asset('media/img/product-img/product-1.jpg')}}" alt="">
                                 <!-- Hover Thumb -->
-                                <img class="hover-img" src="img/product-img/product-2.jpg" alt="">
+                                <img class="hover-img" src="{{asset('media/img/product-img/product-2.jpg')}}" alt="">
                                 <!-- Favourite -->
                                 <div class="product-favourite">
                                     <a href="#" class="favme fa fa-heart"></a>
@@ -325,9 +325,9 @@
                         <div class="single-product-wrapper">
                             <!-- Product Image -->
                             <div class="product-img">
-                                <img src="img/product-img/product-2.jpg" alt="">
+                                <img src="{{asset('media/img/product-img/product-2.jpg')}}" alt="">
                                 <!-- Hover Thumb -->
-                                <img class="hover-img" src="img/product-img/product-3.jpg" alt="">
+                                <img class="hover-img" src="{{asset('media/img/product-img/product-3.jpg')}}" alt="">
                                 <!-- Favourite -->
                                 <div class="product-favourite">
                                     <a href="#" class="favme fa fa-heart"></a>
@@ -355,9 +355,9 @@
                         <div class="single-product-wrapper">
                             <!-- Product Image -->
                             <div class="product-img">
-                                <img src="img/product-img/product-3.jpg" alt="">
+                                <img src="{{asset('media/img/product-img/product-3.jpg')}}" alt="">
                                 <!-- Hover Thumb -->
-                                <img class="hover-img" src="img/product-img/product-4.jpg" alt="">
+                                <img class="hover-img" src="{{asset('media/img/product-img/product-4.jpg')}}" alt="">
 
                                 <!-- Product Badge -->
                                 <div class="product-badge offer-badge">
@@ -391,9 +391,9 @@
                         <div class="single-product-wrapper">
                             <!-- Product Image -->
                             <div class="product-img">
-                                <img src="img/product-img/product-4.jpg" alt="">
+                                <img src="{{asset('media/img/product-img/product-4.jpg')}}" alt="">
                                 <!-- Hover Thumb -->
-                                <img class="hover-img" src="img/product-img/product-5.jpg" alt="">
+                                <img class="hover-img" src="{{asset('media/img/product-img/product-5.jpg')}}"  alt="">
 
                                 <!-- Product Badge -->
                                 <div class="product-badge new-badge">
@@ -429,35 +429,6 @@
     </section>
     <!-- ##### New Arrivals Area End ##### -->
 
-    <!-- ##### Brands Area Start ##### -->
-    <div class="brands-area d-flex align-items-center justify-content-between">
-        <!-- Brand Logo -->
-        <div class="single-brands-logo">
-            <img src="img/core-img/brand1.png" alt="">
-        </div>
-        <!-- Brand Logo -->
-        <div class="single-brands-logo">
-            <img src="img/core-img/brand2.png" alt="">
-        </div>
-        <!-- Brand Logo -->
-        <div class="single-brands-logo">
-            <img src="img/core-img/brand3.png" alt="">
-        </div>
-        <!-- Brand Logo -->
-        <div class="single-brands-logo">
-            <img src="img/core-img/brand4.png" alt="">
-        </div>
-        <!-- Brand Logo -->
-        <div class="single-brands-logo">
-            <img src="img/core-img/brand5.png" alt="">
-        </div>
-        <!-- Brand Logo -->
-        <div class="single-brands-logo">
-            <img src="img/core-img/brand6.png" alt="">
-        </div>
-    </div>
-    <!-- ##### Brands Area End ##### -->
-
     <!-- ##### Footer Area Start ##### -->
     <footer class="footer_area clearfix">
         <div class="container">
@@ -467,7 +438,7 @@
                     <div class="single_widget_area d-flex mb-30">
                         <!-- Logo -->
                         <div class="footer-logo mr-50">
-                            <a href="#"><img src="img/core-img/logo2.png" alt=""></a>
+                            <a href="#"><img src="{{asset('media/img/core-img/logo2.png')}}" alt=""></a>
                         </div>
                         <!-- Footer Menu -->
                         <div class="footer_menu">
@@ -547,31 +518,7 @@
 			
 			
 			
-            <div class="collapse navbar-collapse" id="app-navbar-collapse">
-                <!-- Left Side Of Navbar -->
-                <ul class="nav navbar-nav">
-                    <li><a href="{{ url('/home') }}">Home</a></li>
-                </ul>
-
-                <!-- Right Side Of Navbar -->
-                <ul class="nav navbar-nav navbar-right">
-                    <!-- Authentication Links -->
-                    @if (Auth::guest())
-                        <li><a href="{{ url('/login') }}">Login</a></li>
-                        <li><a href="{{ url('/register') }}">Register</a></li>
-                    @else
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                                {{ Auth::user()->name }} <span class="caret"></span>
-                            </a>
-
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
-                            </ul>
-                        </li>
-                    @endif
-                </ul>
-            </div>
+           
 			
 			
 			
