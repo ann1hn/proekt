@@ -11,3 +11,7 @@
     /* ---------------------------------------
     ##### - PLACE YOUR CUSTOM CSS HERE - #####
     --------------------------------------- */
+	
+	body {
+		background-color: #f6bd60 !important;
+	}

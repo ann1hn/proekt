@@ -18,7 +18,7 @@
 body {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
-  background-color: #ffffff;
+  background-color: #f6bd60;
   margin-top: 85px; }
   @media only screen and (max-width: 767px) {
     body {
@@ -167,7 +167,7 @@ img {
   background-repeat: no-repeat; }
 
 .bg-white {
-  background-color: #ffffff !important; }
+  background-color: #f6bd60!important; }
 
 .bg-dark {
   background-color: #000000 !important; }
@@ -205,7 +205,7 @@ img {
 
 /* ScrollUp */
 #scrollUp {
-  background-color: #ff084e;
+  background-color: #f6bd60;
   border-radius: 0;
   bottom: 60px;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
@@ -233,12 +233,12 @@ img {
   text-transform: uppercase;
   font-size: 12px;
   line-height: 50px;
-  background-color: #0315ff;
+  background-color: #f6bd60;
   letter-spacing: 1.5px;
   font-weight: 600; }
   .essence-btn:hover, .essence-btn:focus {
     color: #ffffff;
-    background-color: #dc0345; }
+    background-color: #f6bd60 }
 
 /* :: 4.0 Header Area CSS */
 .header_area {
@@ -310,7 +310,7 @@ img {
         border-left: none; } }
     .header_area .search-area form input {
       border: none;
-      background-color: #ffffff;
+      background-color: #f6bd60;
       width: 200px;
       height: 85px;
       padding: 0 15px 0 60px;
@@ -421,7 +421,7 @@ img {
   height: 100%;
   top: 0;
   right: -800px;
-  background-color: #ffffff;
+  background-color: #f6bd60;
   z-index: 1100;
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
   -webkit-transition-duration: 800ms;
@@ -451,7 +451,7 @@ img {
     border-left: 1px solid #ebebeb;
     height: 85px;
     line-height: 80px;
-    background-color: #f5f7f9; }
+    background-color: #f6bd60; }
     @media only screen and (max-width: 767px) {
       .right-side-cart-area .cart-button a {
         width: 50px;
@@ -740,7 +740,7 @@ img {
   z-index: 1;
   margin-bottom: 50px;
   overflow: hidden;
-  background-color: #ffffff; }
+  background-color: #f6bd60; }
   .single-product-wrapper .product-img {
     position: relative;
     z-index: 1;
@@ -774,9 +774,9 @@ img {
       left: 20px;
       z-index: 10; }
       .single-product-wrapper .product-img .product-badge.offer-badge {
-        background-color: #dc0345; }
+        background-color: #f6bd60; }
       .single-product-wrapper .product-img .product-badge.new-badge {
-        background-color: #0315ff; }
+        background-color: #f6bd60; }
     .single-product-wrapper .product-img .product-favourite a {
       position: absolute;
       height: 25px;
@@ -787,7 +787,7 @@ img {
       right: 20px;
       z-index: 10;
       line-height: 25px;
-      background-color: #ffffff;
+      background-color: #f6bd60;
       box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
       text-align: center;
       opacity: 0;
@@ -901,35 +901,7 @@ img {
       border-top-right-radius: 0;
       border-bottom-right-radius: 0; }
 
-/* :: 9.0 Brands Area CSS */
-.brands-area {
-  position: relative;
-  z-index: 1;
-  background-color: #f5f7f9;
-  padding: 100px 5%; }
-  @media only screen and (max-width: 767px) {
-    .brands-area {
-      -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-      padding: 100px 5% 70px; } }
-  @media only screen and (max-width: 767px) {
-    .brands-area .single-brands-logo {
-      -webkit-box-flex: 0;
-      -ms-flex: 0 0 33.33333%;
-      flex: 0 0 33.33333%;
-      width: 33.33333%;
-      max-width: 33.33333%; } }
-  .brands-area .single-brands-logo img {
-    max-width: 120px; }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .brands-area .single-brands-logo img {
-        max-width: 90px; } }
-    @media only screen and (max-width: 767px) {
-      .brands-area .single-brands-logo img {
-        max-width: 80px;
-        margin-bottom: 30px; } }
-
-/* :: 10.0 Single Product Details Area CSS */
+/* :: 9.0 Single Product Details Area CSS */
 .single_product_details_area {
   position: relative;
   z-index: 100;
@@ -1038,7 +1010,7 @@ img {
       .single_product_details_area .single_product_desc .nice-select .current {
         line-height: 60px; }
       .single_product_details_area .single_product_desc .nice-select .list {
-        background-color: #f6f6f6;
+        background-color: #f6bd60;
         border-radius: 0;
         border: none;
         width: 100%; }
@@ -1219,7 +1191,7 @@ img {
     height: 15px;
     margin: 0; }
   .widget.price .ui-slider-range.ui-corner-all.ui-widget-header {
-    background-color: #0315ff; }
+    background-color: #f6bd60; }
   .widget.price .ui-slider-horizontal {
     height: 5px; }
   .widget.price .range-price {
@@ -1240,14 +1212,14 @@ img {
         width: 30px;
         height: 30px;
         display: block;
-        background-color: #ffffff;
+        background-color: #f6bd60;
         position: relative;
         z-index: 1;
         box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); }
         .widget.color .widget-desc ul li a.color1 {
-          background-color: #ffffff; }
+          background-color: #f6bd60; }
         .widget.color .widget-desc ul li a.color2 {
-          background-color: #969696; }
+          background-color: #f6bd60; }
         .widget.color .widget-desc ul li a.color3 {
           background-color: #030303; }
         .widget.color .widget-desc ul li a.color4 {
@@ -1255,7 +1227,7 @@ img {
         .widget.color .widget-desc ul li a.color5 {
           background-color: #dc0647; }
         .widget.color .widget-desc ul li a.color6 {
-          background-color: #fff56a; }
+          background-color: #f6bd60; }
         .widget.color .widget-desc ul li a.color7 {
           background-color: #f26e51; }
         .widget.color .widget-desc ul li a.color8 {
@@ -1316,7 +1288,7 @@ img {
     margin: 0;
     text-transform: uppercase; }
     .product-topbar .nice-select .list {
-      background-color: #f6f6f6;
+      background-color: #f6bd60;
       border-radius: 0;
       border: none; }
       .product-topbar .nice-select .list .option.selected {
@@ -1400,7 +1372,7 @@ img {
     .blog-wrapper .single-blog-area .post-title {
       -webkit-transition-duration: 500ms;
       transition-duration: 500ms;
-      background-color: #ffffff;
+      background-color: #f6bd60;
       padding: 20px 40px;
       position: absolute;
       bottom: 0;
@@ -1425,8 +1397,8 @@ img {
     .blog-wrapper .single-blog-area .hover-content {
       -webkit-transition-duration: 500ms;
       transition-duration: 500ms;
-      background-color: #ffffff;
-      background-color: #ffffff;
+      background-color: #f6bd60;
+      background-color: #f6bd60;
       padding: 20px 40px;
       position: absolute;
       width: 85%;
