@@ -21,7 +21,9 @@
 	<link href="{{asset('media/img/core-img/favicon.ico')}}" rel="icon" />
 
     <!-- Core Style CSS -->
-    <link href="{{asset('media/scss/style.scss')}}" rel="stylesheet" />
+	<link href="{{asset('media/scss/style.scss')}}" rel="stylesheet" />
+	<link href="{{asset('media/css/classy-nav.min.css')}}" rel="stylesheet" />
+    
 	<link href="{{asset('media/css/core-style.css')}}" rel="stylesheet" />
 	
 </head>
