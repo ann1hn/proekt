@@ -12,8 +12,9 @@
     ##### - PLACE YOUR CUSTOM CSS HERE - #####
     --------------------------------------- */
 	
-	.classy-nav-container {
-    position: relative;
-    z-index: 100;
+ .classy-nav-container {
     background-color: #f6bd60 !important;
 }
+ .search-area {
+	background-color: #f6bd60 !important;
+ }
