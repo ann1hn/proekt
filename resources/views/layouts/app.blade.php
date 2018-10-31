@@ -22,9 +22,8 @@
 
     <!-- Core Style CSS -->
 	<link href="{{asset('media/scss/style.scss')}}" rel="stylesheet" />
-	<link href="{{asset('media/css/style.css')}}" rel="stylesheet" />
-    
 	<link href="{{asset('media/css/core-style.css')}}" rel="stylesheet" />
+	<link href="{{asset('media/css/style.css')}}" rel="stylesheet" />
 	
 </head>
 <body id="app-layout">

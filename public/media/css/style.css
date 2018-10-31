@@ -15,3 +15,50 @@
  .classy-nav-container {
     background-color: #f6bd60 !important;
 }
+
+ .header_area {
+	 border-bottom: 1px solid #f6bd60 !important;
+ }
+ 
+ .header_area .favourite-area a, 
+ .header_area .user-login-info a, 
+ .header_area .cart-area a {
+	 border-left: 1px solid #f6bd60 !important;
+ }
+ 
+ .header_area .classynav ul li a {
+	 color: #3a8652 !important; 
+ }
+ 
+ .breakpoint-off .classynav ul li .dropdown {
+	 background-color: #f6bd60 !important;
+ }
+ 
+  h1, h2, h3, h4, h5, h6 {
+	 color: #3a8652 !important; 
+ }
+	
+	.breakpoint-off .classynav ul li .megamenu {
+		background-color: #f6bd60 !important;  
+	}
+	
+	.classynav ul li .megamenu .single-mega.cn-col-3,.classynav ul li .megamenu .single-mega.cn-col-4,.classynav ul li .megamenu .single-mega.cn-col-5 {
+		border-bottom:#f6bd60 !important; 
+		}
+		
+	.header_area .search-area form {
+		border-left: 1px solid #f6bd60 !important;
+	}
+		
+	.header_area .search-area form input {
+		background-color: #f6bd60 !important; 
+		color: #3a8652 !important;
+	}
+	
+	.header_area .search-area form button {
+		color: #3a8652 !important; 
+	}
+	
+	::placeholder {
+		color: #3a8652 !important; 
+	}
